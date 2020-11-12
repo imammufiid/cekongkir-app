@@ -13,6 +13,7 @@
 
 ### Tech stack and 3rd library
 - Kotlin
+- MVVM ([docs](https://developer.android.com/topic/libraries/architecture/viewmodel))
 - RXJava ([docs](https://github.com/ReactiveX/RxJava#:~:text=RxJava%20is%20a%20Java%20VM,programs%20by%20using%20observable%20sequences.))
 - Material Design ([docs](https://material.io/design))
 - API Raja Ongkir ([docs](https://rajaongkir.com/))
