@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cek Ongkir App</string>
+    <string name="kota_asal">Kota Asal</string>
+    <string name="kota_tujuan">Kota Tujuan</string>
+    <string name="weight">Berat (gram)</string>
+    <string name="ekspedisi_kurir">Ekspedisi/Kurir</string>
+    <string name="cek_ongkir">Cek Ongkir</string>
+    <string name="kurir">Kurir %s</string>
+    <string name="service">Service : %s</string>
+    <string name="estimasi">Estimasi : %s hari</string>
+    <string name="harga">Rp. %s</string>
+    <string name="ok">Tutup</string>
+
+    <string name="alert_city">Masukkan Kota Asal/Tujuan</string>
+    <string name="alert_weight">Masukkan Berat Produk</string>
+    <string name="alert_kurir">Pilih Kurir Ekspedisi</string>
+</resources>
