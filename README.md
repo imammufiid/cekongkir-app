@@ -1,4 +1,4 @@
-# QUIZ WEB SERVICE PROGRAMMING
+# Rest Client Android Kotlin
 
 <p align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIN3ugV8qUKM72eTgMZspMBX3nZJ9O9QhMsg&usqp=CAU"/>
