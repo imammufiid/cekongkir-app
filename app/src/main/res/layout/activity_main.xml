@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kota_asal" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/cityOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/dropdownListPreferredItemHeight"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/spinner_blue_outline"
+        android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+        android:popupElevation="3dp"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/kota_tujuan" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/cityDestination"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/dropdownListPreferredItemHeight"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/spinner_blue_outline"
+        android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+        android:popupElevation="3dp"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/weight" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/spinner_blue_outline"
+        android:inputType="number"
+        android:paddingHorizontal="8dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/ekspedisi_kurir" />
+    <RadioGroup
+        android:id="@+id/radio_courier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/jne_courier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorPrimary"
+            android:text="jne" />
+
+        <RadioButton
+            android:id="@+id/tiki_courier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorPrimary"
+            android:text="tiki" />
+
+        <RadioButton
+            android:id="@+id/pos_courier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorPrimary"
+            android:text="pos" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_cek_ongkir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/cek_ongkir"/>
+
+
+</LinearLayout>
